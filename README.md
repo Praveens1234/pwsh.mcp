@@ -93,10 +93,10 @@ graph TD
 ### 1. Clone & Install
 
 ```bash
-git clone [https://github.com/yourusername/godmode-mcp.git](https://github.com/yourusername/godmode-mcp.git)
+git clone https://github.com/Praveens1234/pwsh.mcp.git
 cd godmode-mcp
 
-# Create virtual environment
+# Create virtual environment (recommend but not required)
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
