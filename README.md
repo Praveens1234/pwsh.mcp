@@ -94,7 +94,7 @@ graph TD
 
 ```bash
 git clone https://github.com/Praveens1234/pwsh.mcp.git
-cd godmode-mcp
+cd pwsh.mcp
 
 # Create virtual environment (recommend but not required)
 python -m venv venv
