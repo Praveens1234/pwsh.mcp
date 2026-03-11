@@ -101,7 +101,7 @@ python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 # Install dependencies
-pip install mcp[cli] uvicorn starlette psutil
+pip install mcp[cli] uvicorn starlette psutil FastMCP
 
 ```
 
