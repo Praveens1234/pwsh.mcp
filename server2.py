@@ -3925,11 +3925,6 @@ def main():
 
     lip = get_local_ip()
 
-    # Count actual registered tools
-    import inspect
-    tool_count = sum(1 for name, fn in inspect.getmembers(mcp) if callable(fn) and
-                     getattr(fn, '_mcp_tool', False)) if hasattr(mcp, '__dict__') else 0
-
     logger.info("═" * 66)
     logger.info(f"  🤖  GODMODE MCP  v{__version__}  ·  {__codename__}")
     logger.info("═" * 66)
